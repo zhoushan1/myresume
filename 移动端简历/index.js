@@ -53,3 +53,13 @@ function end(e) {
         this.firstElementChild.id = "a"+(this.index+1);
     })
 }
+
+window.setTimeout(function () {
+    var oList = document.querySelectorAll(".a2>div");
+    for (var i = 0; i < oList.length; i++) {
+        oList[i].className = "move";
+    }
+}, 200);
+
+
+

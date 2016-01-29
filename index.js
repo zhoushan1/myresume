@@ -55,7 +55,7 @@ function end(e) {
 }
 
 window.setTimeout(function () {
-    var oList = document.querySelectorAll(".a2>div");
+    var oList = document.querySelectorAll(".a3>div");
     for (var i = 0; i < oList.length; i++) {
         oList[i].className = "move";
     }

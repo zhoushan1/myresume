@@ -31,20 +31,20 @@ html,body{
     background: url(../images/bg1.jpg) no-repeat;
 }
 .slide li:nth-child(2){
-    background: url(../images/b.png) no-repeat;
+    background: url(../images/bg4.png) no-repeat;
 }
 .slide li:nth-child(3){
-    background:url(../images/BG.png) no-repeat;
+    background:url(../images/bggg.jpg) no-repeat;
 }
 .slide li:nth-child(4){
-    background: url(../images/BG.png) no-repeat;
+    background: url(../images/bggg.jpg) no-repeat;
 }
 .slide li:nth-child(5){
-    background: url(../images/BG.png) no-repeat;
+    background: url(../images/bggg.jpg) no-repeat;
 }
 .slide li:nth-child(6){
 
-    background: url(../images/BG.png) no-repeat;
+    background: url(../images/bggg.jpg) no-repeat;
 }
 .slide li:nth-child(7){
     background:url(../images/bg6.jpg) no-repeat;
@@ -121,8 +121,8 @@ html,body{
     border:10px solid rgba(255,255,255,0.5);
     border-radius: 50%;
     position: absolute;
-    left:60%;
-    top:-130%;
+    left:52%;
+    top:-181%;
 }
 .a2 p:nth-child(1){
     -webkit-transform: translate(-500px,0);

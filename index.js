@@ -13,7 +13,7 @@ main.style.webkitTransform = "scale(" + winH / desH + ")";
     arguments[0].addEventListener('touchend', end, false);
 })
 function start(e) {
-    music.play();
+    //music.play();
     this.startY = e.changedTouches[0].pageY;
 }
 function move(e) {

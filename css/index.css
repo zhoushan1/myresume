@@ -19,6 +19,7 @@ html,body{
     top:0;
     margin-left: -320px;
     -webkit-transform-origin: top;
+    transform-origin: top;
 }
 
 
@@ -148,7 +149,6 @@ html,body{
     animation: flip 1.5s linear 1.5s infinite both;
 }
 #a1 img{
-    /*-webkit-animation:zoomOut 1.5s ease-in-out ;*/
     position: absolute;
     left: 30%;
     top: -166%;
@@ -156,21 +156,27 @@ html,body{
 
 .a1 p:nth-child(1){
     -webkit-transform: translate(-500px,400px);
+    transform: translate(-500px,400px);
 }
 .a1 p:nth-child(3){
     -webkit-transform: translate(-600px,400px);
+    transform: translate(-600px,400px);
 }
 .a1 p:nth-child(2){
     -webkit-transform: translate(500px,400px);
+    transform: translate(500px,400px);
 }
 #a1 p:nth-child(1){
     -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 #a1 p:nth-child(3){
     -webkit-transition: 1.5s;
+    transition: 1.5s;
 }
 #a1 p:nth-child(2){
     -webkit-transition: 1s;
+    transition: 1s;
 }
 
 #a1 p{
@@ -181,7 +187,6 @@ html,body{
     font-family: Microsoft YaHei;
 
 }
-
 
 .a2{
     width: 100%;
@@ -207,16 +212,21 @@ html,body{
 }
 .a2 p:nth-child(3){
     -webkit-transform: translate(-500px,0);
+    transform: translate(-500px,0);
 }
 .a2 p:nth-child(2){
     -webkit-transform: translate(500px,0);
+    transform: translate(500px,0);
 }
 .a2 p:nth-child(4){
     -webkit-transform: translate(500px,0);
+    transform: translate(500px,0);
 }
 #a2 p{
     -webkit-transform: translate(0,0);
+    transform: translate(0,0);
     -webkit-transition: 1s;
+    transition: 1s;
     font-size: 30px;
     margin-top: 10px;
     font-family: Microsoft YaHei;
@@ -226,13 +236,30 @@ html,body{
 @-webkit-keyframes rotate {
     0%{
         -webkit-transform: rotate(0deg) scale(0.2);
+        transform: rotate(0deg) scale(0.2);
     }
     100%{
-        -webkit-transform:rotate(720deg) scale(1)
+        -webkit-transform:rotate(720deg) scale(1);
+        transform:rotate(720deg) scale(1);
     }
 }
 #a2 img{
     -webkit-animation:rotate 1s ease-in-out ;
+    animation:rotate 1s ease-in-out ;
+}
+@keyframes rotate {
+    0%{
+        -webkit-transform: rotate(0deg) scale(0.2);
+        transform: rotate(0deg) scale(0.2);
+    }
+    100%{
+        -webkit-transform:rotate(720deg) scale(1);
+        transform:rotate(720deg) scale(1);
+    }
+}
+#a2 img{
+    -webkit-animation:rotate 1s ease-in-out ;
+    animation:rotate 1s ease-in-out ;
 }
 /*工作经历*/
 .a3 {
@@ -487,14 +514,28 @@ html,body{
 /**/
 #a4 p{
     -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
     -webkit-transition:all 1s;
+    transition:all 1s;
 }
 @-webkit-keyframes zoomIn {
     0%{
         -webkit-transform: scale(0.2);
+        transform: scale(0.2);
     }
     100%{
         -webkit-transform:scale(1);
+        transform:scale(1);
+    }
+}
+@keyframes zoomIn {
+    0%{
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+    }
+    100%{
+        -webkit-transform:scale(1);
+        transform:scale(1);
     }
 }
 
@@ -570,9 +611,21 @@ html,body{
 @-webkit-keyframes slideLeft {
     0%{
         -webkit-transform: translate(-500px ,0);
+        transform: translate(-500px ,0);
     }
     100%{
         -webkit-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+}
+@keyframes slideLeft {
+    0%{
+        -webkit-transform: translate(-500px ,0);
+        transform: translate(-500px ,0);
+    }
+    100%{
+        -webkit-transform: translate(0,0);
+        transform: translate(0,0);
     }
 }
 #a5 img{
@@ -604,7 +657,6 @@ html,body{
 #a5 p{
     width: 100px;
     height: 200px;
-    /*-webkit-transition: 1s;*/
 }
 #a5 p:nth-child(1){
     width: 23px;
@@ -640,45 +692,56 @@ html,body{
 }
 .a5 span:nth-child(6){
     -webkit-transform: translate(-500px,0);
-
+    transform: translate(-500px,0);
 }
 .a5 span:nth-child(7){
-
     -webkit-transform: translate(-500px,0);
+    transform: translate(-500px,0);
 }
 .a5 span:nth-child(8){
     -webkit-transform: translate(-500px,0);
+    transform: translate(-500px,0);
 }
 .a5 span:nth-child(9){
     -webkit-transform: translate(50px,-800px);
+    transform: translate(50px,-800px);
 }
 .a5 span:nth-child(10){
     -webkit-transform: translate(40px,-800px);
+    transform: translate(40px,-800px);
 }
 #a5 span:nth-child(6){
     -webkit-transform: translate(0,0);
+    transform: translate(0,0);
     -webkit-transition: 0.5s;
+    transition: 0.5s;
     left: 20%;
     bottom: 8%;
     text-shadow:5px 2px 6px #000
 }
 #a5 span:nth-child(7){
     -webkit-transform: translate(0,0);
+    transform: translate(0,0);
     -webkit-transition: 0.5s;
+    transition: 0.5s;
     left: 40%;
     bottom: 8%;
     text-shadow:5px 2px 6px #000
 }
 #a5 span:nth-child(8){
     -webkit-transform: translate(0,0);
+    transform: translate(0,0);
     -webkit-transition: 0.5s;
+    transition: 0.5s;
     left: 60%;
     bottom: 8%;
     text-shadow:5px 2px 6px #000
 }
 #a5 span:nth-child(9){
     -webkit-transform: translate(0,0);
+    transform: translate(0,0);
     -webkit-transition: 0.5s;
+    transition: 0.5s;
     font-size: 30px;
     left: 5%;
     bottom: 36%;
@@ -686,7 +749,9 @@ html,body{
 }
 #a5 span:nth-child(10){
     -webkit-transform: translate(0,0);
+    transform: translate(0,0);
     -webkit-transition: 0.5s;
+    transition: 0.5s;
     font-size: 30px;
     left: 75%;
     bottom: 8%;
@@ -716,7 +781,9 @@ html,body{
 }
 #a6{
     -webkit-transform: rotateY(720deg);
+    transform: rotateY(720deg);
     -webkit-transition:1s;
+    transition:1s;
 }
 .a7 p:nth-child(1){
     font-size: 60px;

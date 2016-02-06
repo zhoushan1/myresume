@@ -8,19 +8,15 @@
 </head>
 <body>
 <div id="main">
-<div id="div1"></div>
+<div id="sound">
+    <audio src="images/music.mp3" preload="auto" loop id="audio1"></audio>
+</div>
 <!--
 controls:是否使用浏览器自带的播放器
 preload:刚开始加载的内容 "none"->刚开始啥都不加载,只有当播放的时候才开始加载 "metadata"->刚开始只加载文件的头部信息  auto->开始进来就开始加载音频资源
 autoplay:自动播放
 loop:循环播放
 -->
-<!--<audio src="images/music.mp3" preload="none" loop id="audio1"/>-->
-
-<audio preload="auto" loop id="audio1">
-<source src="images/music.mp3" type="audio/mpeg"/>
-<embed></embed>
-</audio>
 <ul class="slide">
     <li>
         <div class="a1">

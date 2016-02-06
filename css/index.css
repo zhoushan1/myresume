@@ -20,6 +20,8 @@ html,body{
     margin-left: -320px;
     -webkit-transform-origin: top;
 }
+
+
 .slide li{
     position: absolute;
     width: 100%;
@@ -67,17 +69,7 @@ html,body{
     top: -166%;
 }
 
-/*@-webkit-keyframes zoomOut {*/
-    /*0%{*/
-        /*-webkit-transform: scale(2);*/
-    /*}*/
-    /*50%{*/
-        /*-webkit-transform: scale(1.5);*/
-    /*}*/
-    /*100%{*/
-        /*-webkit-transform:scale(1);*/
-    /*}*/
-/*}*/
+
 @-webkit-keyframes flip {
     from {
         -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
@@ -183,6 +175,7 @@ html,body{
 
 #a1 p{
     -webkit-transform: translate(0,0);
+    transform: translate(0,0);
     font-size: 30px;
     margin-top: 55px;
     font-family: Microsoft YaHei;
@@ -210,6 +203,7 @@ html,body{
 }
 .a2 p:nth-child(1){
     -webkit-transform: translate(-500px,0);
+    transform: translate(-500px,0);
 }
 .a2 p:nth-child(3){
     -webkit-transform: translate(-500px,0);

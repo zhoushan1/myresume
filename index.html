@@ -2,112 +2,122 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
     <title>周珊简历</title>
     <link rel="stylesheet" href="css/index.css"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 </head>
 <body>
 <div id="main">
-    <div id="sound">
-        <audio src="images/music.mp3" loop id="music"></audio>
-    </div>
-    <ul class="slide">
-        <li>
-            <div class="a1">
-                <p style="font-size:50px;font-weight: 600">HI</p>
+<div id="div1"></div>
+<!--
+controls:是否使用浏览器自带的播放器
+preload:刚开始加载的内容 "none"->刚开始啥都不加载,只有当播放的时候才开始加载 "metadata"->刚开始只加载文件的头部信息  auto->开始进来就开始加载音频资源
+autoplay:自动播放
+loop:循环播放
+-->
+<!--<audio src="images/music.mp3" preload="none" loop id="audio1"/>-->
 
-                <p style="font-size:40px;font-weight: 600">我叫周珊</p>
+<audio preload="auto" loop id="audio1">
+<source src="images/music.mp3" type="audio/mpeg"/>
+<embed></embed>
+</audio>
+<ul class="slide">
+    <li>
+        <div class="a1">
+            <p style="font-size:50px;font-weight: 600">HI</p>
 
-                <p style="font-size:30px;font-weight: 600">正在寻找一份<span
-                        style="font-size:40px;font-weight: 600">前端开发</span>工程师的工作</p>
-                <img src="images/mylove.png" id="a1Img"/>
-            </div>
+            <p style="font-size:40px;font-weight: 600">我叫周珊</p>
 
-        </li>
-        <li>
-            <div class="a2">
-                <p>姓名:周珊<br>性别:男;&nbsp;&nbsp;名族:汉</p>
+            <p style="font-size:30px;font-weight: 600">正在寻找一份<span
+                    style="font-size:40px;font-weight: 600">前端开发</span>工程师的工作</p>
+            <img src="images/mylove.png" id="a1Img"/>
+        </div>
 
-                <p>
-                    籍贯:湖北;&nbsp;&nbsp;现居地:北京<br>年龄:25
-                </p>
+    </li>
+    <li>
+        <div class="a2">
+            <p>姓名:周珊<br>性别:男;&nbsp;&nbsp;名族:汉</p>
 
-                <p>
+            <p>
+                籍贯:湖北;&nbsp;&nbsp;现居地:北京<br>年龄:25
+            </p>
 
-                    学校:吉林师范大学;&nbsp;&nbsp;学历:本科
-                </p>
+            <p>
 
-                <p>电话：15311969622</p>
-                <img src="images/me.jpg" id="a2Pic"/>
-            </div>
+                学校:吉林师范大学;&nbsp;&nbsp;学历:本科
+            </p>
 
-        </li>
-        <li>
-            <div class="a3">
-                <div><h2>工作经历</h2></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </li>
-        <li>
-            <div class="a4">
-                <p></p>
+            <p>电话：15311969622</p>
+            <img src="images/me.jpg" id="a2Pic"/>
+        </div>
 
-                <p></p>
+    </li>
+    <li>
+        <div class="a3">
+            <div><h2>工作经历</h2></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </li>
+    <li>
+        <div class="a4">
+            <p></p>
 
-                <p></p>
+            <p></p>
 
-                <p></p>
+            <p></p>
 
-                <p></p>
+            <p></p>
 
-                <p></p>
+            <p></p>
 
-                <p>
-                    1，熟练PC端DIV+CSS布局、XHTML等web标准化设计，及常见兼容性优化；<br>2，擅长原生JavaScript，能熟练运用jQuery进行项目开发；<br>3，熟悉AJAX相关技术,并有实际应用开发经验；
-                </p>
+            <p></p>
 
-                <p>
-                    1,熟悉移动端H5/css3，有webApp项目开发经验；<br>2，对node.js和PHP有一定的了解，能运用接口文档进行前后端合作开发，会Git
-                </p>
+            <p>
+                1，熟练PC端DIV+CSS布局、XHTML等web标准化设计，及常见兼容性优化；<br>2，擅长原生JavaScript，能熟练运用jQuery进行项目开发；<br>3，熟悉AJAX相关技术,并有实际应用开发经验；
+            </p>
 
-                <div><img src="images/mySkill.png" alt=""/></div>
-                <h1>我能做</h1>
-            </div>
-        </li>
+            <p>
+                1,熟悉移动端H5/css3，有webApp项目开发经验；<br>2，对node.js和PHP有一定的了解，能运用接口文档进行前后端合作开发，会Git
+            </p>
 
-        <li>
-            <div class="a5">
-                <p></p>
+            <div><img src="images/mySkill.png" alt=""/></div>
+            <h1>我能做</h1>
+        </div>
+    </li>
 
-                <p></p>
+    <li>
+        <div class="a5">
+            <p></p>
 
-                <p></p>
+            <p></p>
 
-                <p></p>
+            <p></p>
 
-                <p></p>
-                <span>css</span>
-                <span>js</span>
-                <span>H5</span>
-                <span>90%</span>
-                <span>熟练度</span>
-                <img src="images/mySkill1.png"/>
-            </div>
-        </li>
-        <li>
-            <div class="a6"></div>
-            <p class="a6title">自我评价:</p>
+            <p></p>
 
-        </li>
-        <li class="zIndex">
-            <div class="a7">
-                <p>周珊简历</p>
-                <span></span>
-            </div>
-        </li>
-    </ul>
+            <p></p>
+            <span>css</span>
+            <span>js</span>
+            <span>H5</span>
+            <span>90%</span>
+            <span>熟练度</span>
+            <img src="images/mySkill1.png"/>
+        </div>
+    </li>
+    <li>
+        <div class="a6"></div>
+        <p class="a6title">自我评价:</p>
+
+    </li>
+    <li class="zIndex">
+        <div class="a7">
+            <p>周珊简历</p>
+            <span></span>
+        </div>
+    </li>
+</ul>
 </div>
 </body>
 </html>

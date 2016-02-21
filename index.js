@@ -4,7 +4,7 @@ var winW = window.innerWidth;
 var winH = window.innerHeight;
 var desW = 640;
 var desH = 960;
-var oAudio = document.querySelector("#audio1");
+//var oAudio = document.querySelector("#audio1");
 
 main.style.webkitTransform = "scale(" + winH / desH + ")";
 [].forEach.call(oLis, function () {
@@ -14,7 +14,7 @@ main.style.webkitTransform = "scale(" + winH / desH + ")";
     arguments[0].addEventListener('touchend', end, false);
 })
 function start(e) {
-    oAudio.play();
+    //oAudio.play();
     this.startY = e.changedTouches[0].pageY;
 }
 function move(e) {

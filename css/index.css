@@ -35,11 +35,7 @@ html,body{
 }
 .slide li:nth-child(2){
     background: url(../images/bg22.gif);
-<<<<<<< HEAD
     background-size: cover;
-=======
-     background-size: cover;
->>>>>>> df31d4472c8a38505a8fa1bbaf67a0bd8067f6ed
 }
 .slide li:nth-child(3){
     background:url(../images/bg1.jpg) no-repeat;
@@ -343,7 +339,7 @@ html,body{
     }
 }
 
-/*分界线*/
+/*分界�?*/
 .a4 p{
     position: absolute;
     width: 90px;
@@ -596,7 +592,7 @@ html,body{
 
 
 
-/*分界线*/
+/*分界�?*/
 
 
 .a5 p{
@@ -762,7 +758,7 @@ html,body{
     bottom: 8%;
     text-shadow:5px 2px 6px #000;
 }
-/*分界线*/
+/*分界�?*/
 .a6{
     width: 460px;
     height: 245px;
